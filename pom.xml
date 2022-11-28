@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>ru.netology.javaqa</groupId>
-    <artifactId>radioman</artifactId>
+    <artifactId>api</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
@@ -46,10 +46,6 @@
                         </goals>
                     </execution>
                     <execution>
-                        <id>check</id>
-                        <goals>
-                            <goal>check</goal>
-                        </goals>
 
                     </execution>
                 </executions>
@@ -62,3 +58,4 @@
 
 
 </project>
+
