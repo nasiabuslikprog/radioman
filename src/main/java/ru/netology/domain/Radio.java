@@ -13,11 +13,13 @@ public class Radio {
     }
 
     public Radio(int stationAmount) {
+
         this.stationAmount = stationAmount;
 
     }
 
     public int getCurrentStation() {
+
         return currentStation;
     }
 
@@ -54,16 +56,20 @@ public class Radio {
     }
 
     public int getCurrentSoundVolume() {
+
         return currentSoundVolume;
     }
 
     public void setCurrentSoundVolume(int newCurrentSoundVolume) {
+
         if (newCurrentSoundVolume < 0) {
             currentSoundVolume = 0;
             return;
         }
         if (newCurrentSoundVolume > 100) {
+
             currentSoundVolume = 100;
+
             return;
         }
         currentSoundVolume = newCurrentSoundVolume;
@@ -71,6 +77,7 @@ public class Radio {
 
     public void increaseVolume() {
         if (currentSoundVolume == 100) {
+
             currentSoundVolume = 100;
         } else {
             currentSoundVolume++;
